@@ -1,0 +1,159 @@
+<!-- REVISAR PORQUE AL PONER EL FOOTER SE DESCOMPONE TODO -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/favicon.png">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap" rel="stylesheet">
+    <title>Car Makerz</title>
+</head>
+
+<div class="container">
+
+    <body>
+
+        <header class="header">
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#equipo">Equipo</a></li>
+                    <li><a href="#servicio">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="content">
+            <section id="inicio">
+                <div>
+                    <h2 class="hero2">since 2022</h2>
+                    <h1 class="hero">car makerz</h1>
+                    <h2 class="hero3">race/track/drift/street</h2>
+                </div>
+            </section>
+
+            <section id="proyectos">
+                <!-- Carrousel -->
+                <h2 class="subtitulo">Nuestros proyectos</h2>
+                <div>
+                    <ul>
+                        <li><img width="1100px" src="imagenes/proyecto8.jpg" alt=""></li>
+                        <li><img width="1100px" src="imagenes/proyecto7.jpg" alt=""></li>
+                        <li><img width="1100px" src="imagenes/proyecto6.jpg" alt=""></li>
+                        <li><img width="1100px" src="imagenes/proyecto5.jpg" alt=""></li>
+                        <li><img width="1100px" src="imagenes/proyecto4.jpg" alt=""></li>
+                        <li><img width="1100px" src="imagenes/proyecto3.jpg" alt=""></li>
+                        <li><img width="1100px" src="imagenes/proyecto2.jpg" alt=""></li>
+                        <li> <img width="1100px" src="imagenes/proyecto1.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="equipo">
+                <h2 class="subtitulo">Conoce a nuestro equipo</h2>
+                <div class="flexbox">
+                    <div class="card">
+                        <!-- Tarjeta -->
+                        <h3>Tomi - Founder</h3>
+                        <img src="http://picsum.photos/150" alt="">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas aliquid natus voluptate,
+                            magni sunt consequuntur.</p>
+                    </div>
+                    <div class="card">
+                        <!-- Tarjeta -->
+                        <h3>Valen - Jefe de Taller</h3>
+                        <img src="http://picsum.photos/150" alt="">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas aliquid natus voluptate,
+                            magni sunt consequuntur.</p>
+                    </div>
+                    <div class="card">
+                        <!-- Tarjeta -->
+                        <h3>Santi - Mecánico</h3>
+                        <img src="http://picsum.photos/150" alt="">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas aliquid natus voluptate,
+                            magni sunt consequuntur.</p>
+                    </div>
+                    <div class="card">
+                        <!-- Tarjeta -->
+                        <h3>Cari - Estetica vehicular</h3>
+                        <img src="http://picsum.photos/150" alt="">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas aliquid natus voluptate,
+                            magni sunt consequuntur.</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="servicios">
+                <h2 class="subtitulo">Servicios que ofrecemos</h2>
+                <img width="800px" src="imagenes/servicios.jpg" alt=""> <!-- Imagen decorativa costado izquierdo -->
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas aliquid natus voluptate, magni
+                    sunt consequuntur.</p>
+            </section>
+
+            <section id="contacto">
+                <h2 class="subtitulo">¿Dudas, sugerencias, consultas? Contactanos!</h2>
+                <form action="https://formspree.io/f/mbjblpgy" method="POST">
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" placeholder="Juan" required>
+                    </br>
+                    </br>
+
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" placeholder="Perez" required>
+                    </br>
+                    </br>
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="alguien@example.com" required>
+                    </br>
+                    </br>
+
+                    <label for="motivo">Motivo de Contacto</label>
+                    <select name="motivo" id="motivo" aria-placeholder="Selecciona una opción" required>
+                        <option value="cotizarProyecto">Quiero cotizar un proyecto!</option>
+                        <option value="estadoProyecto">Quiero saber el estado de mi proyecto!</option>
+                        <option value="visita">Quiero coordinar una visita!</option>
+                        <option value="asesoramiento">Necesito asesoramiento!</option>
+                    </select>
+                    </br>
+                    </br>
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" required></textarea>
+                    </br>
+                    </br>
+
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" name="telefono" placeholder="Dejanos tu teléfono" />
+                    </br>
+                    </br>
+
+                    <input type="submit" />
+
+                    <input type="reset" value="Limpiar" />
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div>
+                <p>Car Markerz, todos los derechos reservados, 2022.
+                </p>
+            </div>
+        </footer>
+
+    </body>
+
+</div>
+
+</html>
