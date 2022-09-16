@@ -101,47 +101,35 @@
 
             <section id="contacto">
                 <h2 class="subtitulo">¿Dudas, sugerencias, consultas? Contactanos!</h2>
-                <form action="https://formspree.io/f/mbjblpgy" method="POST">
+                    <form action="https://formspree.io/f/mbjblpgy" method="POST">
+                        <div class="col1">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" placeholder="Juan" required>
 
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" placeholder="Juan" required>
-                    </br>
-                    </br>
+                            <label for="apellido">Apellido</label>
+                            <input type="text" name="apellido" placeholder="Perez" required>
 
-                    <label for="apellido">Apellido</label>
-                    <input type="text" name="apellido" placeholder="Perez" required>
-                    </br>
-                    </br>
-
-                    <label for="email">Email</label>
-                    <input type="email" name="email" placeholder="alguien@example.com" required>
-                    </br>
-                    </br>
-
-                    <label for="motivo">Motivo de Contacto</label>
-                    <select name="motivo" id="motivo" aria-placeholder="Selecciona una opción" required>
-                        <option value="cotizarProyecto">Quiero cotizar un proyecto!</option>
-                        <option value="estadoProyecto">Quiero saber el estado de mi proyecto!</option>
-                        <option value="visita">Quiero coordinar una visita!</option>
-                        <option value="asesoramiento">Necesito asesoramiento!</option>
-                    </select>
-                    </br>
-                    </br>
-
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" required></textarea>
-                    </br>
-                    </br>
-
-                    <label for="telefono">Teléfono</label>
-                    <input type="tel" name="telefono" placeholder="Dejanos tu teléfono" />
-                    </br>
-                    </br>
-
-                    <input type="submit" />
-
-                    <input type="reset" value="Limpiar" />
-                </form>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" placeholder="alguien@example.com" required>
+                        </div>
+                        <div class="col2">
+                            <label for="motivo">Motivo de Contacto</label>
+                            <select name="motivo"id="motivo"placeholder="Selecciona una opción" required>
+                                <option value="cotizarProyecto">Quiero cotizar un proyecto!</option>
+                                <option value="estadoProyecto">Quiero saber el estado de mi proyecto!</option>
+                                <option value="visita">Quiero coordinar una visita!<option>
+                                <option value="asesoramiento">Necesito asesoramiento!<option>
+                            </select>
+                        </div>
+                        <div class="col3">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea name="mensaje" required></textarea>
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" name="telefono" placeholder="Dejanos tu teléfono">
+                            <input type="submit">
+                            <input type="reset" value="Limpiar">
+                        </div>
+                    </form>
             </section>
         </main>
 

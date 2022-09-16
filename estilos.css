@@ -143,11 +143,50 @@ nav ul li:hover {
     padding: 5px;
 }
 
+/* Estilo Contacto */
+
+#contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    background-color: #E6D5B8;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    padding: 20px;
+    column-gap: 20px;
+    height: 200px;
+}
+
+.col1 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-self: flex-start;
+    flex-grow: 1;
+}
+
+.col2 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-self: center;
+    flex-grow: 1;
+}
+
+.col3 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-self: flex-end;
+    flex-grow: 1;
+}
+
 /* Estilos Footer */
 
 footer {
     display: flex;
-    background-color: #E6D5B8;
+    background-color: #E45826;
     height: 100px;
     align-items: flex-start;
+    margin-top: 20px;
 }
