@@ -53,6 +53,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 
 nav ul {
@@ -81,7 +82,8 @@ nav ul li:hover {
     background-size: cover;
     color: #E45826;
     width: 100%;
-    height: 600px;
+    height: 700px;
+    filter: brightness(80%);
 }
 
 #inicio div {
@@ -98,7 +100,7 @@ nav ul li:hover {
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 170px;
+    padding-top: 250px;
 }
 
 #inicio div .hero2 {
@@ -128,6 +130,7 @@ nav ul li:hover {
     display: flex;
     align-self: center;
     gap: 15px 10px;
+    height: 500px;
 }
 
 #equipo .card {
@@ -138,9 +141,25 @@ nav ul li:hover {
 }
 
 .card img {
+    display: flex;
     align-self: center;
     justify-self: center;
-    padding: 5px;
+    padding-top: 20px;
+    width: 300px;
+}
+.card p {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: baseline;
+    padding-top: 20px;
+    flex-grow: 1;
+}
+
+/* Estilo Servicios */
+
+.text {
+    color: #E6D5B8;
+    font-size: 1.6rem;
 }
 
 /* Estilo Contacto */
@@ -153,11 +172,10 @@ nav ul li:hover {
 form {
     background-color: #E6D5B8;
     display: flex;
-    justify-content:space-between;
-    align-items: flex-start;
+    align-items: baseline;
     padding: 20px;
     column-gap: 20px;
-    height: 200px;
+    height: 550px;
 }
 
 .col1 {
@@ -165,6 +183,7 @@ form {
     flex-flow: column nowrap;
     justify-self: flex-start;
     flex-grow: 1;
+    justify-items: space-between;
 }
 
 .col2 {
@@ -172,6 +191,7 @@ form {
     flex-flow: column nowrap;
     justify-self: center;
     flex-grow: 1;
+    justify-items: space-between;
 }
 
 .col3 {
@@ -179,6 +199,52 @@ form {
     flex-flow: column nowrap;
     justify-self: flex-end;
     flex-grow: 1;
+    justify-items: space-between;
+}
+
+label {
+    font-size: 2rem;
+    padding: 20px 0;
+}
+
+input {
+    background-color: #cdbea4;
+    padding: 20px;
+    font-size: 1.6rem;
+    margin-right: 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+select {
+    background-color: #cdbea4;
+    padding: 20px;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 10px;
+}
+
+option .selected{
+    display: none;
+}
+
+textarea {
+    background-color: #cdbea4;
+    color:black;
+    padding: 5px;
+    font-size: 1.6rem;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #917039;
+    width: 20%;
+    margin: 10px 0;
+    padding: 15px;
+    align-self: flex-end;
 }
 
 /* Estilos Footer */
