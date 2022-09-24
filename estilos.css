@@ -1,13 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 /* General */
-
 html {
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
+}
+body { 
     background-color: black;
     scroll-behavior: smooth;
 }
@@ -16,32 +12,6 @@ html {
     color: #E6D5B8;
     font-size: 2rem;
     padding: 25px 0;
-}
-
-/* Distribución del contenido */
-
-.container {
-    display: grid;
-    grid-template-columns: 30px auto 30px;
-    grid-template-rows: 80px auto 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "header header header"
-        ". content ."
-        "footer footer footer";
-}
-
-.header {
-    grid-area: header;
-}
-
-.footer {
-    grid-area: footer;
-}
-
-.content {
-    grid-area: content;
 }
 
 /* Barra de navegación */
@@ -71,8 +41,9 @@ nav ul li a {
 
 }
 
-nav ul li:hover {
+nav ul li a:hover {
     text-decoration: underline;
+    color: black;
 }
 
 /* Estilo Inicio */
