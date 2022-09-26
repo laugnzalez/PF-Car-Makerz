@@ -93,6 +93,12 @@ nav ul li a:hover {
 
 #carousel {
     font-size: 1.6rem;
+    width: 80%;
+}
+
+.carousel-caption {
+    color: #E6D5B8;
+    background-color: rgba(0, 0, 0, 0.355);
 }
 
 
@@ -233,4 +239,11 @@ footer {
     height: 100px;
     align-items: flex-start;
     margin-top: 20px;
+}
+
+/* Estilos Mobile */
+@media screen and (min-width: 768px) {
+    #equipo .flexbox { 
+        flex-direction: column;
+    }
 }
