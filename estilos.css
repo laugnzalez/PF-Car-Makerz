@@ -104,24 +104,8 @@ nav ul li a:hover {
 
 /* Estilo equipo */
 
-#equipo {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-#equipo .flexbox {
-    display: flex;
-    align-self: center;
-    gap: 15px 10px;
-    height: 500px;
-}
-
 #equipo .card {
-    display: flex;
-    flex-direction: column;
     background-color: #E6D5B8;
-    padding: 20px;
 }
 
 .card img {
@@ -129,14 +113,9 @@ nav ul li a:hover {
     align-self: center;
     justify-self: center;
     padding-top: 20px;
-    width: 300px;
 }
 .card p {
     font-size: 1.2rem;
-    display: flex;
-    align-items: baseline;
-    padding-top: 20px;
-    flex-grow: 1;
 }
 
 /* Estilo Servicios */
@@ -239,11 +218,4 @@ footer {
     height: 100px;
     align-items: flex-start;
     margin-top: 20px;
-}
-
-/* Estilos Mobile */
-@media screen and (min-width: 768px) {
-    #equipo .flexbox { 
-        flex-direction: column;
-    }
 }
