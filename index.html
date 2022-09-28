@@ -2,224 +2,258 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Makerz</title>
-    <link rel="shortcut icon" href="imagenes/favicon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Makerz</title>
+  <link rel="shortcut icon" href="imagenes/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilos.css">
 </head>
 
-<div>
-    <body>
-        <header class="header">
-            <nav>
-                <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#proyectos">Proyectos</a></li>
-                    <li><a href="#equipo">Equipo</a></li>
-                    <li><a href="#servicio">Servicios</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main class="content">
-            <section id="inicio">
-                <div>
-                    <h2 class="hero2">since 2022</h2>
-                    <h1 class="hero">car makerz</h1>
-                    <h2 class="hero3">race/track/drift/street</h2>
-                </div>
-            </section>
-            <section id="proyectos">
-                <!-- Carrousel -->
-                <h2 class="subtitulo">Nuestros proyectos</h2>
-                <div class="container">
-                    <div id="carousel" data-bs-touch="false"  class="carousel slide carousel-fade" data-bs-ride="carousel ">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="imagenes/proyecto1.jpg" class="d-block w-100" alt="Ferrari 488">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h3>Ferrari 488 Custom</h3>
-                              <p>Personalizamos esta Ferrari con un vinilo verde fluo para que destaque. También le aplicamos detalles en negro para generar contraste junto con las llantas que fueron pintadas con pintura en polvo negra.</p>
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <img src="imagenes/proyecto3.jpg" class="d-block w-100" alt="Mercedes Benz GT-R">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h3>Mercedes Benz GT-R Custom</h3>
-                              <p>A este Mercedes Benz GT-R le agregamos un kit de fibra de carbono el cual esta compuesto por un spoiler frontal y un spoiler trasero para darle un look más de pista y conseguir una mejor la performance en el track.</p>
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <img src="imagenes/proyecto2.jpg" class="d-block w-100" alt="Audi A4 Turbo">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h3>Audi A4 Turbo</h3>
-                              <p>Potenciamos el motor con pistones forjados y bielas forjadas para que sea capaz de soportar un turbo. Realizamos la instalacion del intercooler y adaptamos el escape. Para la estética se le realizo un ploteo gris mate y oscurecimos los logos.
-                              </p>
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <img src="imagenes/proyecto4.jpg" class="d-block w-100" alt="Lamborghini">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h3>Lamborghini</h3>
-                              <p>A este Lamborghini se le cambiaron las llantas, se modificó la suspensión y se le agrego un body kit para ensanchar la carroceria. Todo esto con el fin de conseguir un lok tipo Stance.</p>
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <img src="imagenes/proyecto5.jpg" class="d-block w-100" alt="Ferrari">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h3>Ferrari Stance</h3>
-                              <p>Trabajamos la suspensión de esta Ferrari, logrando asi un look Stance. Tambien cambiamos el color con vinilo azul.</p>
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <img src="imagenes/proyecto6.jpg" class="d-block w-100" alt="Rolls Royce">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h3>Rolls Royce Cabrio</h3>
-                              <p>A este auto de lujo lo estilizamos con vinilo negro en el centro de la carroceria para darle un clásico look bi-tono.</p>
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <img src="imagenes/proyecto7.jpg" class="d-block w-100" alt="BMW">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h3>BMW</h3>
-                              <p>Construimos este BMW enteramente para pista. Compite en carreras de autos clásicos. Potenciamos el motor y redujimos el peso desmantelando el interior. Lo hicimos mas seguro construyendo una jaula de seguridad e instalamos una butaca de competición con cinturón de cinco puntos para que nuestro cliente tenga la máxima seguridad.</p>
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <img src="imagenes/proyecto8.jpg" class="d-block w-100" alt="Fiat 600">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h3>Fiat 600</h3>
-                              <p>Restauramos completamente este clásico italiano. Se le hizo un trabajo entero de carroceria y pintura. Además, obtuvimos piezas de época para darle un toque único.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-                </div>
-            </section>
-            <section id="equipo">
-                <h2 class="subtitulo">Conoce a nuestro equipo</h2>
-                <div class="container">
-                <div class="row row-cols-1 row-cols-xl-4 row-cols-lg-4 row-cols-md-2 ">
-                  <div class="col">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <h3 class="card-title">Tomi - Founder</h3>
-                        <img class="card-img-top" src="imagenes/founder.jpg" alt="Founder de la empresa.">
-                        <p class="card-text">Mi nombre es Tomás, soy el fundador de Car Makerz. Mi pasión son los autos, es por eso que
-                            decidí renunciar a mi antiguo trabajo y montar mi propio taller. Formé el mejor equipo de
-                            trabajo y juntos realizamos cada proyecto como si fuese nuestro para brindarle a nuestros
-                            clientes la perfección.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <h3 class="card-title">Valen - Jefe de Taller</h3>
-                        <img class="card-img-top" src="imagenes/personal3.jpg" alt="Jefe de taller.">
-                        <p class="card-text">Soy Valentino, modificar y arreglar autos es algo que hago desde chico. En mi familia soy la
-                            tercer generación en el rubro y todas las tardes después del colegio iba a ayudar a mi papá
-                            y a mi abuelo al taller. Queria probar algo diferente, así que decidí formar parte Car
-                            Makerz y construir autos únicos.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <h3 class="card-title">Santi - Mecánico</h3>
-                        <img class="card-img-top" src="imagenes/personal2.jpg" alt="Mecánico">
-                        <p class="card-text">Soy Santiago y soy mecánico en Car Makerz. Soy apasionado por las carreras y durante muchos
-                            años perseguí el sueño de ser piloto profesional. Tuve grandes experiencias, sin embargo, no
-                            se dió. Pese a ese golpe de la vida, no quería alejarme de mi pasión y ahora me dedico a
-                            preparar los autos que me hubiese gustado manejar.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <h3 class="card-title">Cami - Estetica vehicular</h3>
-                        <img class="card-img-top" src="imagenes/personal.jpg" alt="Esteticista vehicular.">
-                        <p class="card-text">Hola! Soy Cami y soy parte de Car Makerz. Mi trabajo es asegurarme que tu auto se vea mejor
-                            que cuando salio del concesionario. Dicen que los detalles marcan la diferencia y es por eso
-                            que me especialicé y hoy soy una de las Detailers más reconocidas del país.</p>
-                      </div>  
-                    </div>
-                  </div>  
-                  </div>
-                </div>
-            </section>
-            <section id="servicios">
-                <div>
-                    <h2 class="subtitulo">Servicios que ofrecemos</h2>
-                    <img width="40%" src="imagenes/fondo.jpg" alt="">
-                    <div class="text">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas aliquid natus voluptate,
-                            magni sunt consequuntur.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dignissimos quaerat architecto
-                            tempora unde provident, inventore sed corporis quis in veniam, odit quia quas. Nihil ipsum
-                            natus rem aliquam. Quod.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aliquam assumenda quae
-                            excepturi vero deserunt iusto! Animi, asperiores?</p>
-                    </div>
-                </div>
-            </section>
-            <section id="contacto">
-                <h2 class="subtitulo">¿Dudas, sugerencias, consultas? Contactanos!</h2>
-                <form action="https://formspree.io/f/mbjblpgy" method="POST">
-                    <div class="col1">
-                        <label for="nombre">Nombre</label>
-                        <input type="text" name="nombre" placeholder="Juan" required>
-                        <label for="apellido">Apellido</label>
-                        <input type="text" name="apellido" placeholder="Perez" required>
-                        <label for="email">Email</label>
-                        <input type="email" name="email" placeholder="alguien@example.com" required>
-                    </div>
-                    <div class="col2">
-                        <label for="motivo">Motivo de Contacto</label>
-                        <select name="motivo" id="motivo" placeholder="Selecciona una opción" required>
-                            <option class="selected" selected disabled hidden>Selecciona una opción</option>
-                            <option value="cotizarProyecto">Quiero cotizar un proyecto!</option>
-                            <option value="estadoProyecto">Quiero saber el estado de mi proyecto!</option>
-                            <option value="visita">Quiero coordinar una visita!</option>
-                            <option value="asesoramiento">Necesito asesoramiento!</option>
-                        </select>
-                    </div>
-                    <div class="col3">
-                        <label for="mensaje">Mensaje</label>
-                        <textarea name="mensaje" required></textarea>
-                        <label for="telefono">Teléfono</label>
-                        <input type="tel" name="telefono" placeholder="Dejanos tu teléfono">
-                        <input type="submit">
-                        <input type="reset" value="Limpiar">
-                    </div>
-                </form>
-            </section>
-        </main>
-        <footer class="footer">
-            <div>
-                <p>Car Markerz, todos los derechos reservados, 2022.
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-md justify-content-between">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <a class="navbar-brand" href="#"></a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#proyectos">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#equipo">Equipo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#servicio">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    </div>
+    
+  </header>
+  <main class="content">
+    <section id="inicio">
+      <div class="container">
+        <h2 class="hero2">since 2022</h2>
+        <h1 class="hero">car makerz</h1>
+        <h2 class="hero3">race/track/drift/street</h2>
+      </div>
+    </section>
+    <section id="proyectos">
+      <div class="container">
+        <h2 class="subtitulo">Nuestros proyectos</h2>
+        <div id="carousel" data-bs-touch="false" class="carousel slide carousel-fade" data-bs-ride="carousel ">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagenes/proyecto1.jpg" class="d-block w-100" alt="Ferrari 488">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Ferrari 488 Custom</h3>
+                <p>Personalizamos esta Ferrari con un vinilo verde fluo para que destaque. También le aplicamos detalles
+                  en negro para generar contraste junto con las llantas que fueron pintadas con pintura en polvo negra.
                 </p>
+              </div>
             </div>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-            crossorigin="anonymous"></script>
-    </body>
-</div>
+            <div class="carousel-item">
+              <img src="imagenes/proyecto3.jpg" class="d-block w-100" alt="Mercedes Benz GT-R">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Mercedes Benz GT-R Custom</h3>
+                <p>A este Mercedes Benz GT-R le agregamos un kit de fibra de carbono el cual esta compuesto por un
+                  spoiler frontal y un spoiler trasero para darle un look más de pista y conseguir una mejor la
+                  performance en el track.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/proyecto2.jpg" class="d-block w-100" alt="Audi A4 Turbo">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Audi A4 Turbo</h3>
+                <p>Potenciamos el motor con pistones forjados y bielas forjadas para que sea capaz de soportar un turbo.
+                  Realizamos la instalacion del intercooler y adaptamos el escape. Para la estética se le realizo un
+                  ploteo gris mate y oscurecimos los logos.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/proyecto4.jpg" class="d-block w-100" alt="Lamborghini">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Lamborghini</h3>
+                <p>A este Lamborghini se le cambiaron las llantas, se modificó la suspensión y se le agrego un body kit
+                  para ensanchar la carroceria. Todo esto con el fin de conseguir un lok tipo Stance.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/proyecto5.jpg" class="d-block w-100" alt="Ferrari">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Ferrari Stance</h3>
+                <p>Trabajamos la suspensión de esta Ferrari, logrando asi un look Stance. Tambien cambiamos el color con
+                  vinilo azul.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/proyecto6.jpg" class="d-block w-100" alt="Rolls Royce">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Rolls Royce Cabrio</h3>
+                <p>A este auto de lujo lo estilizamos con vinilo negro en el centro de la carroceria para darle un
+                  clásico look bi-tono.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/proyecto7.jpg" class="d-block w-100" alt="BMW">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>BMW</h3>
+                <p>Construimos este BMW enteramente para pista. Compite en carreras de autos clásicos. Potenciamos el
+                  motor y redujimos el peso desmantelando el interior. Lo hicimos mas seguro construyendo una jaula de
+                  seguridad e instalamos una butaca de competición con cinturón de cinco puntos para que nuestro cliente
+                  tenga la máxima seguridad.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/proyecto8.jpg" class="d-block w-100" alt="Fiat 600">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Fiat 600</h3>
+                <p>Restauramos completamente este clásico italiano. Se le hizo un trabajo entero de carroceria y
+                  pintura. Además, obtuvimos piezas de época para darle un toque único.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="equipo">
+      <div class="container">
+        <h2 class="subtitulo">Conoce a nuestro equipo</h2>
+        <div class="row row-cols-1 row-cols-xl-4 row-cols-lg-4 row-cols-md-2 gy-4 ">
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title">Tomi - Founder</h3>
+                <img class="card-img-top" src="imagenes/founder.jpg" alt="Founder de la empresa.">
+                <p class="card-text">Mi nombre es Tomás, soy el fundador de Car Makerz. Mi pasión son los autos, es por
+                  eso que
+                  decidí renunciar a mi antiguo trabajo y montar mi propio taller. Formé el mejor equipo de
+                  trabajo y juntos realizamos cada proyecto como si fuese nuestro para brindarle a nuestros
+                  clientes la perfección.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title">Valen - Jefe de Taller</h3>
+                <img class="card-img-top" src="imagenes/personal3.jpg" alt="Jefe de taller.">
+                <p class="card-text">Soy Valentino, modificar y arreglar autos es algo que hago desde chico. En mi
+                  familia soy la
+                  tercer generación en el rubro y todas las tardes después del colegio iba a ayudar a mi papá
+                  y a mi abuelo al taller. Queria probar algo diferente, así que decidí formar parte Car
+                  Makerz y construir autos únicos.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title">Santi - Mecánico</h3>
+                <img class="card-img-top" src="imagenes/personal2.jpg" alt="Mecánico">
+                <p class="card-text">Soy Santiago y soy mecánico en Car Makerz. Soy apasionado por las carreras y
+                  durante muchos
+                  años perseguí el sueño de ser piloto profesional. Tuve grandes experiencias, sin embargo, no
+                  se dió. Pese a ese golpe de la vida, no quería alejarme de mi pasión y ahora me dedico a
+                  preparar los autos que me hubiese gustado manejar.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3 class="card-title">Cami - Estetica vehicular</h3>
+                <img class="card-img-top" src="imagenes/personal.jpg" alt="Esteticista vehicular.">
+                <p class="card-text">Hola! Soy Cami y soy parte de Car Makerz. Mi trabajo es asegurarme que tu auto se
+                  vea mejor
+                  que cuando salio del concesionario. Dicen que los detalles marcan la diferencia y es por eso
+                  que me especialicé y hoy soy una de las Detailers más reconocidas del país.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="servicios">
+      <div class="container">
+        <h2 class="subtitulo">Servicios que ofrecemos</h2>
+        <img width="40%" src="imagenes/fondo.jpg" alt="">
+        <div class="text">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas aliquid natus voluptate,
+            magni sunt consequuntur.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dignissimos quaerat architecto
+            tempora unde provident, inventore sed corporis quis in veniam, odit quia quas. Nihil ipsum
+            natus rem aliquam. Quod.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aliquam assumenda quae
+            excepturi vero deserunt iusto! Animi, asperiores?</p>
+        </div>
+      </div>
+    </section>
+    <section id="contacto">
+      <div class="container">
+        <h2 class="subtitulo">¿Dudas, sugerencias, consultas? Contactanos!</h2>
+        <form action="https://formspree.io/f/mbjblpgy" method="POST">
+          <div class="col1">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" placeholder="Juan" required>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" placeholder="Perez" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="alguien@example.com" required>
+          </div>
+          <div class="col2">
+            <label for="motivo">Motivo de Contacto</label>
+            <select name="motivo" id="motivo" placeholder="Selecciona una opción" required>
+              <option class="selected" selected disabled hidden>Selecciona una opción</option>
+              <option value="cotizarProyecto">Quiero cotizar un proyecto!</option>
+              <option value="estadoProyecto">Quiero saber el estado de mi proyecto!</option>
+              <option value="visita">Quiero coordinar una visita!</option>
+              <option value="asesoramiento">Necesito asesoramiento!</option>
+            </select>
+          </div>
+          <div class="col3">
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" required></textarea>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" name="telefono" placeholder="Dejanos tu teléfono">
+            <input type="submit">
+            <input type="reset" value="Limpiar">
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p>Car Markerz, todos los derechos reservados, 2022.
+      </p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
