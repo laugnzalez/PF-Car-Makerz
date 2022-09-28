@@ -111,42 +111,11 @@ nav {
 
 /* Estilo Contacto */
 
-#contacto {
-    display: flex;
-    flex-direction: column;
-}
 
 form {
     background-color: #E6D5B8;
-    display: flex;
     align-items: baseline;
-    padding: 20px;
-    column-gap: 20px;
-    height: 550px;
-}
-
-.col1 {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-self: flex-start;
-    flex-grow: 1;
-    justify-items: space-between;
-}
-
-.col2 {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-self: center;
-    flex-grow: 1;
-    justify-items: space-between;
-}
-
-.col3 {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-self: flex-end;
-    flex-grow: 1;
-    justify-items: space-between;
+    
 }
 
 label {
@@ -197,9 +166,44 @@ input[type=submit], input[type=reset] {
 /* Estilos Footer */
 
 footer {
-    display: flex;
     background-color: #E45826;
-    height: 100px;
-    align-items: flex-start;
-    margin-top: 20px;
+}
+i {
+    color:black;
+}
+
+/* Media Queries */
+
+@media (max-width: 992px) {
+    #inicio {
+        background-image: none;
+        color: #E45826;
+        height: auto;
+    }
+    
+    #inicio div {
+        display: block;
+    }
+    
+    #inicio div .hero {
+        font-size: 6rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    #inicio div .hero2 {
+        display: none;
+    }
+    
+    #inicio div .hero3 {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 2.4rem;
+}
+
+    .carousel-caption {
+        display: none;
+    }
 }
