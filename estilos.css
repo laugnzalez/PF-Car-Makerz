@@ -206,4 +206,8 @@ i {
     .carousel-caption {
         display: none;
     }
+    
+    .decoracion {
+        display: none;
+    }
 }
