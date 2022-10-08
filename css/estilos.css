@@ -12,7 +12,8 @@ body {
 
 .subtitulo {
   color: #E6D5B8;
-  font-size: 2rem;
+  font-size: 2.2rem;
+  font-weight: 700;
   padding: 25px 0;
 }
 
@@ -27,6 +28,15 @@ nav {
 .navbar {
   background-color: #E45826;
   font-size: 2.2rem;
+}
+
+.nav-link {
+  transition: all 500ms;
+}
+
+.nav-link:focus, .nav-link:hover {
+  text-decoration: underline;
+  scale: 1.5;
 }
 
 /* Estilo Inicio */
@@ -81,14 +91,19 @@ nav {
 .card {
   background-color: #E6D5B8;
 }
+.card h3 {
+  font-size: 2rem;
+  padding-top: 10px;
+}
 .card img {
   display: flex;
   align-self: center;
   justify-self: center;
-  padding-top: 20px;
+  padding-top: 10px;
 }
-.card img p {
-  font-size: 1.2rem;
+.card p {
+  font-size: 1.6rem;
+  padding-top: 10px;
 }
 
 /* Estilo Servicios */
@@ -104,23 +119,22 @@ form {
 }
 
 label {
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 1.6rem;
+  font-weight: 700;
   padding: 20px 0;
 }
 
 input {
   background-color: #cdbea4;
-  padding: 20px;
+  padding: 20px 15px;
   font-size: 1.6rem;
-  margin-right: 5px;
   border: none;
   border-radius: 10px;
 }
 
 select {
   background-color: #cdbea4;
-  padding: 20px;
+  padding: 20px 15px;
   font-size: 1.6rem;
   border: none;
   border-radius: 10px;
@@ -133,7 +147,7 @@ option .selected {
 textarea {
   background-color: #cdbea4;
   color: black;
-  padding: 5px;
+  padding: 20px 15px;
   font-size: 1.6rem;
   height: 200px;
   border: none;
@@ -143,6 +157,7 @@ textarea {
 
 input[type=submit], input[type=reset] {
   background-color: #917039;
+  font-weight: 700;
   width: 20%;
   margin: 10px 0;
   padding: 15px;
@@ -160,7 +175,9 @@ footer i {
 /* Media Queries */
 @media (max-width: 992px) {
   #inicio {
-    background-image: none;
+    background-image: url(../imagenes/inicio.jpg);
+    background-size: cover;
+    background-position: center;
     color: #E45826;
     height: auto;
   }
@@ -181,12 +198,23 @@ footer i {
     text-transform: uppercase;
     text-align: center;
     font-size: 2.4rem;
+    padding-bottom: 20px;
   }
   .carousel-caption {
     display: none;
   }
   .decoracion {
     display: none;
+  }
+  textarea {
+    height: 100px;
+  }
+  input[type=submit], input[type=reset] {
+    background-color: #917039;
+    width: 30%;
+    margin: 5px 0;
+    padding: 5px;
+    align-self: flex-end;
   }
 }
 
