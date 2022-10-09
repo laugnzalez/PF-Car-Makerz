@@ -20,21 +20,19 @@ body {
 nav {
     position: fixed;
     top: 0;
-    width: 100%;
-    z-index: 10;
 }
 
 .navbar {
     background-color: #E45826;
     font-size: 2.2rem;
 }
+
 .nav-link {
     transition: all 500ms;
-}
-
-.nav-link:focus, .nav-link:hover {
-    text-decoration: underline;
-    scale: 1.5;
+    &:focus, &:hover {
+        text-decoration: underline;
+        scale: 1.2;
+    }
 }
 
 /* Estilo Inicio */
@@ -80,7 +78,7 @@ nav {
 
 #carousel {
     font-size: 1.6rem;
-    width: 80%;
+    width: 95%;
     margin: auto;
     padding: auto;
 }
@@ -120,11 +118,11 @@ nav {
 
 /* Estilo Contacto */
 
-
 form {
     background-color: #E6D5B8;
     align-items: baseline;
-    
+    border: none;
+    border-radius: 10px;
 }
 
 label {
@@ -185,6 +183,8 @@ footer {
 /* Media Queries */
 
 @media (max-width: 992px) {
+    /* Inicio */
+
     #inicio {
         background-image: url(../imagenes/inicio.jpg);
         background-size: cover;
@@ -213,13 +213,14 @@ footer {
         }
     }
 }
-    .carousel-caption {
-            display: none;
-        }
-        
+
+    /* Servicios */
+
     .decoracion {
             display: none;
         }
+
+    /* Contacto */
 
     textarea { 
         height: 100px
