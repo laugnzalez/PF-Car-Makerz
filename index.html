@@ -5,13 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Car Makerz</title>
+  <!--Favicon-->
   <link rel="shortcut icon" href="imagenes/favicon.png">
+  <!--AOS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--Google Font-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap" rel="stylesheet">
+  <!--Bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+     <!--Bootstrap Icons-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- Mi CSS-->
   <link rel="stylesheet" href="css/estilos.css">
 </head>
 
@@ -52,17 +59,16 @@
     </nav>
   </header>
   <main class="content">
-    <section id="inicio">
+    <section id="inicio" data-aos="fade-down" data-aos-duration="1950" data-aos-delay="150">
       <div class="container">
-        <div></div>
-        <h2 class="hero2">since 2022</h2>
-        <h1 class="hero">car makerz</h1>
-        <h2 class="hero3">race/track/drift/street</h2>
+        <h2 class="hero2" data-aos="fade-right" data-aos-duration="950" data-aos-delay="650">since 2022</h2>
+        <h1 class="hero" data-aos="fade-down" data-aos-duration="950" data-aos-delay="500">car makerz</h1>
+        <h2 class="hero3" data-aos="fade-left" data-aos-duration="950" data-aos-delay="650">race/track/drift/street</h2>
       </div>
     </section>
     <section id="proyectos">
       <div class="container">
-        <h2 class="subtitulo">Nuestros proyectoss</h2>
+        <h2 class="subtitulo">Nuestros proyectos</h2>
         <div id="carousel" data-bs-touch="false" class="carousel slide carousel-fade" data-bs-ride="carousel ">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -152,7 +158,7 @@
         <h2 class="subtitulo">Conoce a nuestro equipo</h2>
         <div class="row row-cols-1 row-cols-xl-4 row-cols-lg-4 row-cols-md-2 gy-4 mx-2 ">
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100" data-aos="flip-down" data-aos-duration="1950" data-aos-delay="50">
               <div class="card-body">
                 <h3 class="card-title">Tomi - Founder</h3>
                 <img class="card-img-top" src="imagenes/founder.jpg" alt="Founder de la empresa.">
@@ -165,7 +171,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100" data-aos="flip-down" data-aos-duration="1950" data-aos-delay="50">
               <div class="card-body">
                 <h3 class="card-title">Valen - Jefe de Taller</h3>
                 <img class="card-img-top" src="imagenes/personal3.jpg" alt="Jefe de taller.">
@@ -178,7 +184,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100" data-aos="flip-down" data-aos-duration="1950" data-aos-delay="50">
               <div class="card-body">
                 <h3 class="card-title">Santi - Mecánico</h3>
                 <img class="card-img-top" src="imagenes/personal2.jpg" alt="Mecánico">
@@ -191,7 +197,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100" data-aos="flip-down" data-aos-duration="1950" data-aos-delay="50">
               <div class="card-body">
                 <h3 class="card-title">Cami - Estetica vehicular</h3>
                 <img class="card-img-top" src="imagenes/personal.jpg" alt="Esteticista vehicular.">
@@ -209,18 +215,27 @@
       <div class="container">
         <h2 class="subtitulo">Servicios que ofrecemos</h2>
         <div class="row mx-2">
-          <div class="col decoracion">
+          <div class="col decoracion" data-aos="fade-right" data-aos-duration="950" data-aos-delay="50">
             <img width="80%" src="imagenes/fondo.jpg" alt="">
           </div>
           <div class="col text">
-            <p>Car Makerz es una empresa dedicada al montaje de coches personalizados y de competición. Nos dedicamos a mejorar, reparar, restaurar y modificar al gusto del cliente. Cuidamos la estética, la mecánica y todos los detalles de tu coche. Tenemos una amplia experiencia en este campo y ofrecemos una variedad de servicios:</p>
-            <p><ul>
-              <li><h3>Mecánica</h3></li>
-              <p>Si deseas mejorar el rendimiento de tu coche, ofrecemos varias opciones para satisfacer tus necesidades. Podemos ayudarte con la instalación y actualización de componentes del motor, la reprogramación, la instalación del turbo a medida o hasta swap de motor completo.</p>
-              <li><h3>Estética</h3></li>
-              <p>Ya sea que estés buscando darle brillo a tu auto o simplemente quieras darle un lavado de cara, podemos ayudarte. Ofrecemos una gama completa de servicios, desde un simple lavado y pulido, hasta un ploteado completo de la carrocería. También hacemos pintura interior, exterior y llantas. Ofrecemos una variedad de otros servicios como el polarizado de ventanas, limpieza de interior y mucho más. Estamos orgullosos de contar con una de las mejores Detailers de Argentina.</p>
-              <li><h3>Competición</h3></li>
-              <p>Si querés convertir tu coche de todos los dias en una máquina de carreras, podemos ayudarte. Nos dedicamos a preparar coches de drifting, podemos aconsejarte sobre cómo configurar el coche y la relación de transmisión correcta. Cuando se trata de la pista de carreras, podemos configurar tu auto para que tengas el mejor tiempo de pista y te diviertas como nunca.</p>
+            <div data-aos="fade-down" data-aos-duration="900">
+             <p>Car Makerz es una empresa dedicada al montaje de coches personalizados y de competición. Nos dedicamos a mejorar, reparar, restaurar y modificar al gusto del cliente. Cuidamos la estética, la mecánica y todos los detalles de tu coche. Tenemos una amplia experiencia en este campo y ofrecemos una variedad de servicios:</p>
+            <p> 
+            </div>
+            <ul>
+              <div data-aos="fade-left" data-aos-duration="900">
+                <li><h3>Mecánica</h3></li>
+                <p>Si deseas mejorar el rendimiento de tu coche, ofrecemos varias opciones para satisfacer tus necesidades. Podemos ayudarte con la instalación y actualización de componentes del motor, la reprogramación, la instalación del turbo a medida o hasta swap de motor completo.</p>
+              </div>
+              <div data-aos="fade-left" data-aos-duration="900" data-aos-delay="450">
+                <li><h3>Estética</h3></li>
+                <p>Ya sea que estés buscando darle brillo a tu auto o simplemente quieras darle un lavado de cara, podemos ayudarte. Ofrecemos una gama completa de servicios, desde un simple lavado y pulido, hasta un ploteado completo de la carrocería. También hacemos pintura interior, exterior y llantas. Ofrecemos una variedad de otros servicios como el polarizado de ventanas, limpieza de interior y mucho más. Estamos orgullosos de contar con una de las mejores Detailers de Argentina.</p>
+              </div>
+              <div data-aos="fade-left" data-aos-duration="900" data-aos-delay="900">
+                <li><h3>Competición</h3></li>
+                <p>Si querés convertir tu coche de todos los dias en una máquina de carreras, podemos ayudarte. Nos dedicamos a preparar coches de drifting, podemos aconsejarte sobre cómo configurar el coche y la relación de transmisión correcta. Cuando se trata de la pista de carreras, podemos configurar tu auto para que tengas el mejor tiempo de pista y te diviertas como nunca.</p>
+              </div>
             </ul>
           </div>
         </div>
@@ -276,9 +291,15 @@
       <li class="ms-3"><a href="#"><i class="bi bi-twitter"></i></a></li>
     </ul>
   </footer>
+  <!--Bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
     crossorigin="anonymous"></script>
+    <!--AOS-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
