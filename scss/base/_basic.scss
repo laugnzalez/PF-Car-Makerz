@@ -1,0 +1,21 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: $bg-color;
+    scroll-behavior: smooth;
+}
+
+.subtitulo {
+    color: $secondary-color;
+    font-size: $title;
+    font-weight: 700;
+    padding: 25px 0;
+}
+
+.secondary-text {
+    color: $secondary-color;
+    font-size: $text;
+}

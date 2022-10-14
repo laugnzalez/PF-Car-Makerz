@@ -1,0 +1,54 @@
+/* Media Queries */
+
+@media (max-width: 992px) {
+    /* Inicio */
+
+    #inicio {
+        background-image: url(../imagenes/inicio.jpg);
+        background-size: cover;
+        background-position: center;
+        color: #E45826;
+        height: auto;
+    div {
+        display: block;
+        .hero {
+            font-size: 6rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .hero2 {
+            display: none;
+        }
+        
+        .hero3 {
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 2.4rem;
+            padding-bottom: 20px;
+        }
+    }
+}
+
+    /* Servicios */
+
+    .decoracion {
+            display: none;
+        }
+
+    /* Contacto */
+
+    textarea { 
+        height: 100px
+    }
+
+    input[type=submit], input[type=reset] {
+        background-color: #917039;
+        width: 30%;
+        margin: 5px 0;
+        padding: 5px;
+        align-self: flex-end;
+    }
+}

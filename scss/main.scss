@@ -1,0 +1,34 @@
+/* General */
+
+@import "components/variables";
+@import "base/basic";
+
+/* Barra de navegación */
+
+@import "layout/navbar";
+
+/* Inicio */
+
+@import "layout/inicio";
+
+
+/* Proyectos*/ 
+
+@import "components/carousel";
+
+/* Equipo */
+
+@import "components/cards";
+
+
+/* Estilo Contacto */
+
+@import "components/form";
+
+/* Estilos Footer */
+
+@import "layout/footer";
+
+/* Media Queries */
+
+@import "components/media-queries";

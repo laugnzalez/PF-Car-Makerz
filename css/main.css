@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* General */
+/* General */ /*variables*/
 html {
   font-size: 62.5%;
   font-family: "Montserrat", sans-serif;
@@ -17,12 +17,12 @@ body {
   padding: 25px 0;
 }
 
-/* Barra de navegación */
-nav {
-  position: fixed;
-  top: 0;
+.secondary-text {
+  color: #E6D5B8;
+  font-size: 1.6rem;
 }
 
+/* Barra de navegación */
 .navbar {
   background-color: #E45826;
   font-size: 2.2rem;
@@ -36,7 +36,7 @@ nav {
   scale: 1.2;
 }
 
-/* Estilo Inicio */
+/* Inicio */
 #inicio {
   background-image: url(../imagenes/inicio.jpg);
   background-size: cover;
@@ -71,7 +71,7 @@ nav {
   font-size: 2.4rem;
 }
 
-/* Estilo proyectos*/
+/* Proyectos*/
 #carousel {
   font-size: 1.6rem;
   width: 95%;
@@ -84,12 +84,12 @@ nav {
   background-color: rgba(0, 0, 0, 0.355);
 }
 
-/* Estilo equipo */
+/* Equipo */
 .card {
   background-color: #E6D5B8;
 }
 .card h3 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   padding-top: 10px;
 }
 .card img {
@@ -103,12 +103,6 @@ nav {
   padding-top: 10px;
 }
 
-/* Estilo Servicios */
-.text {
-  color: #E6D5B8;
-  font-size: 1.6rem;
-}
-
 /* Estilo Contacto */
 form {
   background-color: #E6D5B8;
@@ -118,7 +112,7 @@ form {
 }
 
 label {
-  font-size: 1.6rem;
+  font-size: 2.2rem;
   font-weight: 700;
   padding: 20px 0;
 }
@@ -172,6 +166,7 @@ footer i {
 }
 
 /* Media Queries */
+/* Media Queries */
 @media (max-width: 992px) {
   /* Inicio */
   #inicio {
@@ -217,4 +212,4 @@ footer i {
   }
 }
 
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=main.css.map */

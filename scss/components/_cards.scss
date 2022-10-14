@@ -1,0 +1,16 @@
+.card {
+    background-color: $secondary-color;
+    h3 {font-size: $title;
+        padding-top: 10px;
+    }
+    img {
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        padding-top: 10px;
+    }
+    p {
+        font-size: $text;
+        padding-top: 10px;
+    }
+}

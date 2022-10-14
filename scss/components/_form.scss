@@ -1,0 +1,52 @@
+form {
+    background-color: $secondary-color;
+    align-items: baseline;
+    border: none;
+    border-radius: 10px;
+}
+
+label {
+    font-size: $title;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+input {
+    background-color:$opacity-color;
+    padding: 20px 15px;
+    font-size: $text;
+    border: none;
+    border-radius: 10px;
+}
+
+select {
+    background-color:$opacity-color;
+    padding: 20px 15px;
+    font-size: $text;
+    border: none;
+    border-radius: 10px;
+}
+
+option .selected{
+    display: none;
+}
+
+textarea {
+    background-color: $opacity-color;
+    color:black;
+    padding: 20px 15px;
+    font-size: $text;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: $detail-color;
+    font-weight: 700;
+    width: 20%;
+    margin: 10px 0;
+    padding: 15px;
+    align-self: flex-end;
+}
