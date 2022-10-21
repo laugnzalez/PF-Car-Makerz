@@ -3,6 +3,10 @@
     font-size: 2.2rem;
 }
 
+.offcanvas {
+    background-color: rgb(228, 88, 38, 0.9);
+}
+
 .nav-link {
     transition: all 500ms;
     &:focus, &:hover {
